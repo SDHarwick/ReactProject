@@ -1,3 +1,147 @@
 h1 {
   color: tomato;
 }
+
+body {
+	margin: 0px;
+}
+
+#main_body {
+	background-color: #9ab1d6;
+	postion: absolute;
+	top: 170px;
+	min-width: 100%;
+	height: 100%;
+	min-height: 800px;
+	padding-top: 25px;
+}
+
+.r_col {
+	padding-top: 30px;
+	border: 5px solid black;
+	width: 50%;
+	min-height: 430px;
+	height: 100%;
+	display: inline-block;
+	float: right;
+	border-radius: 5px;
+	background-color: white;
+}
+
+.l_col {
+	border: 2px solid black;
+	border-radius: 5px;
+	width: 30%;
+	height: 100%;
+	display: inline-block;
+	padding: 2%;
+	background-color: white;
+	float: none;
+	vertical-align: top;
+}
+
+#l_sidebar > ul li {
+	height: 35px;
+	color: white;
+}
+
+.pull_left {
+	float: left;
+}
+
+.pull_right {
+	float: right;
+}
+
+#l_sidebar {
+	width: 14%;
+	margin-right: 1%;
+	float: left;
+	background-color: #5e5858;
+	min-height: 470px;
+}
+
+#footer {
+	background-color: #7c7a7a;
+	height: 55px;
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+}
+
+#footer >  ul li {
+	display: inline-block;
+	width: 25%;
+	height: 100%;
+	vertical-align: center;
+	color: white;
+	font-size: 24px;
+}
+
+#nav {
+	width: 100%;
+	background-color: #444444;
+	height: 80px;
+	position: block;
+	margin-bottom: 0px;
+	color: white;
+}
+
+#nav > ul li {
+	display: inline-block;
+	width: 33%;
+	vertical-align: center;
+}
+
+#single_block {
+	vertical-align: top;
+	min-height: 150px;
+	border: 1px solid black;
+	padding: 5px;
+	width: 45%;
+	display: inline-block;
+	text-align: center;
+	margin-top: 10px;
+	background-color: #7c7e82;
+	cursor: crosshair;
+	border-radius: 5px;
+}
+
+#header_container {
+	text-align: center;
+	width: 100%;
+	display: inline-flex;
+}
+
+#controls {
+	/*display: none;*/
+	padding-top: 2px;
+}
+
+#edit_block {
+	margin-left: 2px;
+	width: 70px;
+	border: 1px solid black;
+	float: left;
+	display: block;
+}
+
+#delete_block {
+	margin-left: 2px;
+	width: 70px;
+	border: 1px solid black;
+	float: left;
+	display: block;
+}
+
+#clone_block {
+	margin-left: 2px;
+	width: 70px;
+	border: 1px solid black;
+	float: left;
+	display: block;
+}
+
+.blocks {
+	vertical-align: top;
+}
