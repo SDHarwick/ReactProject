@@ -1,4 +1,4 @@
-React Boilerplate
+React Project
 =====================
 
 A minimal and light dev environment for ReactJS.
@@ -8,7 +8,7 @@ A minimal and light dev environment for ReactJS.
 Clone the boilerplate and create your own git repo.
 
 ```
-git clone git@github.com:nolotz/react-simple-boilerplate.git
+git clone https://github.com/SDHarwick/ReactProject.git
 ```
 
 Install the dependencies and start the server.
@@ -27,7 +27,7 @@ For example, if you copy a file called my_image.png into the build folder you ca
 
 ### Linting
 
-This boilerplate project includes React ESLint configuration.
+This project includes React ESLint configuration.
 
 ```
 npm run lint
