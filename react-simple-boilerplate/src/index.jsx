@@ -6,6 +6,9 @@
 
 // Load up the application styles
 require("../styles/application.scss");
+// require('../../node_modules/react-quill/dist/quill.snow.css');
+
+
 
 // Render the top-level React component
 import React from 'react';
@@ -15,8 +18,7 @@ import ReactDOM from 'react-dom';
 // import { syncHistoryWithStore } from 'react-router-redux';
 import App from './App.jsx';
 import Base from './Base.jsx';
-// import Blocks from './Blocks.jsx';
+
 
 ReactDOM.render(<App />, document.getElementById('react-root'));
 ReactDOM.render(<Base />, document.getElementById('base'));
-// ReactDOM.render(<Blocks />, document.getElementById('blocks'));

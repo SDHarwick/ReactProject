@@ -49,6 +49,7 @@
     "react-redux": "4.4.5",
     "react-router": "2.5.2",
     "react-router-redux": "4.0.5",
+    "react-quill": "1.1.0",
     "redux": "3.5.2"
   },
   "main": "server.js"

@@ -8,11 +8,7 @@ class Base extends Component {
     return (
 	    <div id="base-container">
 	      	<div id="l_sidebar">
-				<ul>
-					<li>Blocks</li>
-					<li>Styles</li>
-					<li>Preview</li>
-				</ul>
+				<LeftNav />
 			</div>
 			<div id="l_col">
 				<h4> Drag blocks to add them:</h4>
